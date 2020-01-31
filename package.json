@@ -1,7 +1,7 @@
 {
   "name": "docker-node-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Dockerizing a Node.js web app.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
