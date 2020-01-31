@@ -10,7 +10,7 @@
     "name": "Safdar Jamal",
     "url": "https://safdarjamal.github.io"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
   }
