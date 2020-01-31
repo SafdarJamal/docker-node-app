@@ -6,7 +6,10 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "",
+  "author": {
+    "name": "Safdar Jamal",
+    "url": "https://safdarjamal.github.io"
+  },
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
