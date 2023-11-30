@@ -30,7 +30,7 @@ spec:
         app: node-js-latest
     spec:
       containers:
-      - image: 238797952615.dkr.ecr.ap-south-1.amazonaws.com/docker-node-app:IMG-TAG
+      - image: 238797952615.dkr.ecr.ap-south-1.amazonaws.com/docker-node-app:IMG_TAG
         imagePullPolicy: IfNotPresent
         name: docker-node-app
         resources: {}
