@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
       - name: eks-container
-        image: 238797952615.dkr.ecr.ap-south-1.amazonaws.com/docker-node-app:39
+        image: 238797952615.dkr.ecr.ap-south-1.amazonaws.com/docker-node-app:IMG_TAG
