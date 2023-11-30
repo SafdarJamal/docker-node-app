@@ -15,3 +15,16 @@ spec:
       containers:
       - name: eks-container
         image: 238797952615.dkr.ecr.ap-south-1.amazonaws.com/docker-node-app:IMG_TAG
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-node-app-service
+spec:
+  selector:
+    app: my-node-app
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080  
+  type: ClusterIP
